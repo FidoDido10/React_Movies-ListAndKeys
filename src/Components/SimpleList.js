@@ -1,0 +1,17 @@
+// src/components/SimpleList.js
+
+// An array containing HTML elements
+const numbersList = [<li>1</li>, <li>2</li>, <li>3</li>, <li>4</li>];
+
+function SimpleList() {
+  return (
+    <div className="list">
+      <h2>List</h2>
+
+      {numbersList.map(andrecito=>{
+        return<p>{andrecito}</p>      })}
+    </div>
+  );
+}
+
+export default SimpleList;
